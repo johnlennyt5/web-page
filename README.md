@@ -1,2 +1,0 @@
-# web-page
- kobe page

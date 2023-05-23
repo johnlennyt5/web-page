@@ -1,36 +1,43 @@
+/* Setting the base font size for the entire page to 10 pixels high */
 html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-  }
-  h1 {
-    font-size: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #7CFD8D;
-    text-shadow: 3px 3px 1px black;
-  }
-  
-  p,
-  li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-  html {
-    background-color: #248D4C;
-  }
+font-size: 10px;
+font-family: "Open Sans", sans-serif; /* Using the Open Sans font family for the entire page */
+}
 
-  body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #ff9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
- 
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 300px ;
-  }
+/* Styling for the h1 heading */
+h1 {
+font-size: 60px; /*Setting the font size to 60 pixels high */
+text-align: center; /*Center-aligning the text */
+margin: 0; /* Removing any margin */
+padding: 20px 0; /* Adding padding of 20 pixels on top and bottom, and 0 pixels on left and right */
+color: #7CFD8D; /* Setting the color to a shade of green */
+text-shadow: 3px 3px 1px black; /* Adding a text shadow with a slight offset */
+}
+
+/* Styling for paragraphs and list items */
+p, li {
+font-size: 16px; /* Setting the font size to 16 pixels high */
+line-height: 2; /* Setting the line-height to 2 times the font size */
+letter-spacing: 1px; /* Adding 1 pixel of letter spacing */
+}
+
+/* Setting the background color of the html element to a shade of green */
+html {
+background-color: #248D4C;
+}
+
+/* Styling for the body element */
+body {
+width: 600px; /* Setting the width of the body to 600 pixels */
+margin: 0 auto; /* Center-aligning the body element horizontally */
+background-color: #ff9500; /* Setting the background color to a shade of orange */
+padding: 0 20px 20px 20px; /* Adding padding of 0 pixels on top, 20 pixels on right and bottom, and 20 pixels on left */
+border: 5px solid black; /* Adding a black border with a thickness of 5 pixels */
+}
+
+/* Styling for images */
+img {
+display: block; /* Setting the display property to block to center-align the image */
+margin: 0 auto; /* Center-aligning the image horizontally */
+width: 300px ; /* Setting the width of the image to 300 pixels */
+}
